@@ -1,0 +1,8 @@
+SwagLabs/pageobjects/LoginPage.class
+SwagLabs/stepsdefinitions/UserStepsDefinitions.class
+SwagLabs/pageobjects/ShoppingCartPage.class
+SwagLabs/pageobjects/AboutPage.class
+SwagLabs/steps/SwagLabsUser.class
+Runner.class
+SwagLabs/pageobjects/CheckoutPage.class
+SwagLabs/pageobjects/MainPage.class
