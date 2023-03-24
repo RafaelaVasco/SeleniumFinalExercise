@@ -35,48 +35,48 @@ public class UserStepsDefinitions {
         swagLabsUser.goBackToMainPage();
     }
 
-    @When("^order the products by price -high to low-$")
+    @When("^orders the products by price -high to low-$")
     public void sortProductsByPrice() {
         swagLabsUser.sortProductsByPrice();
         Serenity.takeScreenshot();
     }
 
-    @And("^add the (.*) most expensive products to the cart$")
+    @And("^adds the (.*) most expensive products to the cart$")
     public void addProductsToCart(Integer amount) {
         swagLabsUser.addProductsToCart(amount);
     }
 
-    @And("^check the cart to confirm that it actually contains (.*) products$")
+    @And("^checks the cart to confirm that it actually contains (.*) products$")
     public void checkAmountOfProductsOnCart(Integer amount) {
         swagLabsUser.checkAmountOfProductsOnCart(amount);
         Serenity.takeScreenshot();
     }
 
-    @Then("^go to the shopping cart, save all the product's information, and display them in the Serenity report$")
+    @Then("^goes to the shopping cart, save all the product's information, and display them in the Serenity report$")
     public void goToShoppingCart() {
         swagLabsUser.goToShoppingCart();
         Serenity.takeScreenshot();
     }
 
-    @And("^go to checkout$")
+    @And("^goes to checkout$")
     public void goToCheckout() {
         swagLabsUser.goToCheckout();
         Serenity.takeScreenshot();
     }
 
-    @And("^set the personal information (.*), (.*) and (.*)$")
+    @And("^sets the personal information (.*), (.*) and (.*)$")
     public void setPersonalInformation(String firstName, String lastName, String postalCode) {
         swagLabsUser.setPersonalInformation(firstName, lastName, postalCode);
         Serenity.takeScreenshot();
     }
 
-    @And("^check if the total price is correct$")
+    @And("^checks if the total price is correct$")
     public void checkTotalPrice() {
         swagLabsUser.checkTotalPrice();
         Serenity.takeScreenshot();
     }
 
-    @And("^add to serenity report the information about payment, delivery and prices$")
+    @And("^adds to serenity report the information about payment, delivery and prices$")
     public void showCheckoutInformation() {
         swagLabsUser.showCheckoutInformation();
         Serenity.takeScreenshot();
