@@ -1,7 +1,7 @@
 # SeleniumFinalExercise
 Selenium Bootcamp Final Exercise
 
-1. Go to https://www.saucedemo.com/](https://www.saucedemo.com/
+1. Go to https://www.saucedemo.com/
 2. Login as a standard user
 3. Go to About link
 4. Go back to the Main page
